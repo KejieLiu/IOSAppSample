@@ -13,6 +13,7 @@ class ViewController: UIViewController, UITextFieldDelegate,UIImagePickerControl
     @IBOutlet weak var mealNameLabel: UILabel!
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var photoImageView: UIImageView!
+    @IBOutlet weak var ratingControl: RatingControl!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -25,9 +26,9 @@ class ViewController: UIViewController, UITextFieldDelegate,UIImagePickerControl
     }
 
     //MARK: Actions
-    @IBAction func setDefaultLabelText(_ sender: UIButton) {
-        mealNameLabel.text = "Default Text"
-    }
+//    @IBAction func setDefaultLabelText(_ sender: UIButton) {
+//        mealNameLabel.text = "Default Text"
+//    }
     
     @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
         nameTextField.resignFirstResponder()
