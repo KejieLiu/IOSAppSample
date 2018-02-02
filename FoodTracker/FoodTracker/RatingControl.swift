@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//cocoa文件，继承于UIStackView
 @IBDesignable class RatingControl: UIStackView {
 
     //MARK: Properties
@@ -17,7 +17,7 @@ import UIKit
             updateButtonSelectionStates()
         }
     }
-    
+    //IBInspectable的作用是编译实时显示效果图
     @IBInspectable var starSize: CGSize = CGSize(width: 44.0, height: 44.0){
         didSet {
             setupButtons()

@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/liukejie/Applications/IOS Application/IOSAppSample/FoodTracker/FoodTracker/MealTableViewCell.swift">
-   </FileRef>
-   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>
